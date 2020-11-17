@@ -17,7 +17,7 @@ func GetZero() {
 		j := i
 		go func() {
 			for i := j; ; i += numCPU {
-				data := []byte(fmt.Sprintf("yangcan-%v", i))
+				data := []byte(fmt.Sprintf("srv_trust-%v", i))
 				hash := sha256.Sum256(data)
 				result := hex.EncodeToString(hash[:])
 				if result[:6] == strings.Repeat("0", 6) {

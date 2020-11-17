@@ -23,7 +23,7 @@ func TestCreateEmployee(t *testing.T) {
 	t.Log(e2)
 }
 
-//实现方法，使用指针避免内存拷贝
+// 实现方法，使用指针避免内存拷贝
 func (e *Employee) String() string {
 	return fmt.Sprintf("id:%s\nName:%s\nage:%d", e.id, e.Name, e.age)
 }

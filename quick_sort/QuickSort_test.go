@@ -2,6 +2,7 @@ package quick_sort
 
 import (
 	"math/rand"
+	_ "net/http/pprof"
 	"testing"
 )
 
