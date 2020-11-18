@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"time"
 )
 
@@ -26,6 +25,5 @@ fmt.Println(int(weekday))
 	end = time.Unix(endTime, 0).In(CST)
 	fmt.Println(start,end)fmt.Println(len("00000064bf96a01bca4af965dd30e159f755ed3ca71c63c8200c0c6c8bcf1919"))*/
 func main() {
-	now := time.Unix(1605196800,0)
-	fmt.Println(now)
+	
 }
