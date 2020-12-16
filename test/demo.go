@@ -1,8 +1,4 @@
-package main
-
-import (
-	"fmt"
-)
+package test
 
 /*func removeOuterParentheses(S string) string {
 	result := make([]byte, 0, len(S))

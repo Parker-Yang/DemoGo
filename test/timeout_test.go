@@ -1,4 +1,4 @@
-package main
+package test
 
 /*func TestTimeout() {
 	hisTime := time.Unix(req.Data.Timestamp, 0)
